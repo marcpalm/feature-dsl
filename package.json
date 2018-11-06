@@ -1,0 +1,18 @@
+{
+  "name": "feature-dsl",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "repository": "git@github.com:marcpalm/feature-dsl.git",
+  "author": "info@marcpalm.com",
+  "license": "UNLICENSED",
+  "private": true,
+  "devDependencies": {
+    "jest": "^23.6.0"
+  },
+  "dependencies": {
+    "gherk": "^1.0.2"
+  },
+  "scripts": {
+    "start": "jest --watch"
+  }
+}

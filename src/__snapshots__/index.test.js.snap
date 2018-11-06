@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`printFeature should write file as parsed 1`] = `
+Array [
+  Object {
+    "desire": "to take beer off the wall",
+    "feature": "Can drink beer when thirsty",
+    "perspective": "a drinker",
+    "reason": "to satisfy my thirst",
+    "scenarios": Array [
+      Object {
+        "given": Array [
+          "100 bottles of beer on the wall",
+        ],
+        "scenario": "Can take a single beer",
+        "then": Array [
+          "there are 98 bottles of beer on the wall",
+        ],
+        "when": Array [
+          "a bottle is taken down",
+          "a bottle is taken down",
+        ],
+      },
+      Object {
+        "given": Array [
+          "100 bottles of beer on the wall",
+        ],
+        "scenario": "Can take multiple beers",
+        "then": Array [
+          "there are 95 bottles of beer on the wall",
+        ],
+        "when": Array [
+          "5 bottles are taken down",
+        ],
+      },
+      Object {
+        "given": Array [
+          "100 bottles of beer on the wall",
+          "there is nobody in the room",
+        ],
+        "scenario": "Ghosts can drink",
+        "then": Array [
+          "there are 95 bottles of beer on the wall",
+          "there are ghosts in the room",
+        ],
+        "when": Array [
+          "5 bottles are taken down",
+          "they are floating in the air",
+        ],
+      },
+    ],
+  },
+]
+`;
