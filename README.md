@@ -1,3 +1,3 @@
-# feature-dsl
+# Runs, parses and print features
 
 Inspired and copied from 
